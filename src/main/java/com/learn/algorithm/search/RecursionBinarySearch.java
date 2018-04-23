@@ -11,9 +11,10 @@ public class RecursionBinarySearch {
      * @return
      */
     public static int rank(int key, int[] array)  {
-
-        return rank(key, array, 0, array.length -1
-        );
+        if (array == null || array.length == 0) {
+            return -1;
+        }
+        return rank(key, array, 0, array.length -1);
     }
 
     public static int rank(int key, int array[], int low, int high) {
