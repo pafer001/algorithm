@@ -1,6 +1,9 @@
 package com.learn.algorithm.search;
 
 
+/**
+ * 递归的二分查找
+ */
 public class RecursionBinarySearch {
 
 
