@@ -1,4 +1,4 @@
-package com.learn.algorithm.num;
+package com.learn.algorithm._1.num;
 
 public class NumberUtils {
 

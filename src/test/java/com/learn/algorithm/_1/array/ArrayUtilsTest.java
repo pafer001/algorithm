@@ -1,4 +1,4 @@
-package com.learn.algorithm.array;
+package com.learn.algorithm._1.array;
 
 import org.junit.Test;
 

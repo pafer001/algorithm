@@ -1,4 +1,4 @@
-package com.learn.algorithm.search;
+package com.learn.algorithm._1.search;
 
 /**
  * @author wangzhenya
