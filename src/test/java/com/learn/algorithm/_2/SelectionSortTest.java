@@ -1,9 +1,21 @@
 package com.learn.algorithm._2;
 
+import com.google.common.collect.Lists;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 public class SelectionSortTest {
 
+    @Test
+    public void testSort() {
+
+
+        Element [] elements = new Element[]{new Element("A"), new Element("c"),
+                new Element("D"), new Element("C")};
+        SelectionSort.sort(elements);
+        SelectionSort.show(elements);
+    }
     @Test
     public void testLess() {
 
@@ -30,6 +42,13 @@ public class SelectionSortTest {
         @Override
         public int compareTo(Element o) {
             return ch.compareTo(o.ch);
+        }
+
+        @Override
+        public String toString() {
+            return "Element{" +
+                    "ch='" + ch + '\'' +
+                    '}';
         }
     }
 
